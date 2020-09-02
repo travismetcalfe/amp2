@@ -1,0 +1,20 @@
+#!/bin/bash
+
+function check_okay {
+	if [ $? -ne 0 ]
+	then
+		echo
+		echo "FAILED"
+		echo
+		exit 1
+	fi
+}
+
+rm -f restart_photo
+cp inlist inlist_save
+cp inlist_null inlist
+./test_star > tmp.txt
+cp inlist_save inlist
+check_okay
+cp test_output tmp.txt
+diff tmp.txt test_output
