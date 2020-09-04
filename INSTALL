@@ -32,7 +32,6 @@
    cd $AMP2
    git clone https://github.com/travismetcalfe/em.git
    cd em/src
-   mv obs.dat $AMP2
    make
    make -f Makefile.f77 pikaia_amp2
 
