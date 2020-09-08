@@ -39,5 +39,6 @@
 
 6. Run a test model to fit solar data
    cd $AMP2
+   export OMP_NUM_THREADS=4   
    ./testffamp2 0.25 0.53 0.57 0.38
    "chisq_r=   1.3935171264928805"
