@@ -1,5 +1,5 @@
 1. Set working directory
-   export AMP2=~/AMP2
+   export AMP2=~/amp2
 
 2. Download and install MesaSDK
    cd $AMP2/setup
