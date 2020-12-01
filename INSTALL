@@ -22,9 +22,11 @@
    ./install
 
 4. Download and install GYRE
+   cd $AMP2/setup
+   wget -U 'NoName' https://github.com/rhdtownsend/gyre/archive/v6.0.tar.gz   
    cd $AMP2
-   git clone -b v6.0 https://github.com/rhdtownsend/gyre
-   export GYRE_DIR=$AMP2/gyre
+   tar xvfz setup/v6.0.tar.gz
+   export GYRE_DIR=$AMP2/gyre-6.0
    cp $AMP2/setup/gyre_atmos.fpp $GYRE_DIR/src/common
 
 5. Install and build EM
