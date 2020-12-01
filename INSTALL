@@ -23,7 +23,7 @@
 
 4. Download and install GYRE
    cd $AMP2
-   git clone https://github.com/rhdtownsend/gyre
+   git clone -b v6.0 https://github.com/rhdtownsend/gyre
    export GYRE_DIR=$AMP2/gyre
    cp $AMP2/setup/gyre_atmos.fpp $GYRE_DIR/src/common
 
