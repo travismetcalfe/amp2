@@ -30,9 +30,11 @@
    cp $AMP2/setup/gyre_atmos.fpp $GYRE_DIR/src/common
 
 5. Install and build EM
+   cd $AMP2/setup
+   wget -U 'NoName' https://github.com/rhdtownsend/em/archive/v1.0.tar.gz
    cd $AMP2
-   git clone https://github.com/rhdtownsend/em
-   cd em/src
+   tar xvfz setup/v1.0.tar.gz
+   cd em-1.0/src
    make
    make -f Makefile.f77 pikaia_amp2
 
