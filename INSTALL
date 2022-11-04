@@ -1,3 +1,6 @@
+0. Install the source code
+   git clone https://github.com/travismetcalfe/amp2
+   
 1. Set working directory
    export AMP2=~/amp2
 
