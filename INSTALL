@@ -14,7 +14,7 @@
 
 3. Download and install MESA
    cd $AMP2/setup
-   wget -U 'NoName' https://managedway.dl.sourceforge.net/project/mesa/releases/mesa-r12778.zip
+   wget -U 'NoName' https://zenodo.org/record/3698354/files/mesa-r12778.zip
    cd $AMP2
    unzip setup/mesa-r12778.zip
    export MESA_DIR=$AMP2/mesa-r12778
