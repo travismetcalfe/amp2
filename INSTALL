@@ -6,7 +6,7 @@
 
 2. Download and install MesaSDK
    cd $AMP2/setup
-   wget -U 'NoName' http://www.astro.wisc.edu/~townsend/resource/download/mesasdk/mesasdk-x86_64-linux-20.3.2.tar.gz
+   wget -U 'NoName' http://user.astro.wisc.edu/~townsend/resource/download/mesasdk/mesasdk-x86_64-linux-20.3.2.tar.gz
    cd $AMP2
    tar xvfz setup/mesasdk-x86_64-linux-20.3.2.tar.gz
    export MESASDK_ROOT=$AMP2/mesasdk
